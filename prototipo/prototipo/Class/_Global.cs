@@ -16,6 +16,7 @@ namespace prototipo
 {
     public class _Global
     {
+        //He puesto un comentario 
 
         #region Campos/Propiedades/Estructuras
 

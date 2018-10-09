@@ -22,3 +22,6 @@ D:\Administrador\Escritorio\HNic\prototipo\prototipo\obj\Debug\prototipo.Propert
 D:\Administrador\Escritorio\HNic\prototipo\prototipo\obj\Debug\prototipo.Asistente.resources
 D:\Administrador\Escritorio\HNic\prototipo\prototipo\obj\Debug\prototipo.ReconocimientoFacial.resources
 D:\Administrador\Escritorio\HNic\prototipo\prototipo\obj\Debug\prototipo.csproj.GenerateResource.Cache
+C:\Users\uSUARIO\Documents\GitHub\HNic\prototipo\prototipo\bin\Debug\prototipo.exe.config
+C:\Users\uSUARIO\Documents\GitHub\HNic\prototipo\prototipo\obj\Debug\prototipo.exe
+C:\Users\uSUARIO\Documents\GitHub\HNic\prototipo\prototipo\obj\Debug\prototipo.pdb
