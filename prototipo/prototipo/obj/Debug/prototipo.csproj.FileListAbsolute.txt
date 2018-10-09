@@ -25,3 +25,6 @@ D:\Administrador\Escritorio\HNic\prototipo\prototipo\obj\Debug\prototipo.csproj.
 C:\Users\uSUARIO\Documents\GitHub\HNic\prototipo\prototipo\bin\Debug\prototipo.exe.config
 C:\Users\uSUARIO\Documents\GitHub\HNic\prototipo\prototipo\obj\Debug\prototipo.exe
 C:\Users\uSUARIO\Documents\GitHub\HNic\prototipo\prototipo\obj\Debug\prototipo.pdb
+D:\Administrador\Documentos\GitHub\HNic\prototipo\prototipo\bin\Debug\prototipo.exe.config
+D:\Administrador\Documentos\GitHub\HNic\prototipo\prototipo\obj\Debug\prototipo.exe
+D:\Administrador\Documentos\GitHub\HNic\prototipo\prototipo\obj\Debug\prototipo.pdb
