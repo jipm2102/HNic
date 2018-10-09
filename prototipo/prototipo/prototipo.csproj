@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5FF5DA08-07C4-4288-9C59-F08F6EDCCA15}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>prototipo</RootNamespace>
+    <AssemblyName>prototipo</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form\SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\SplashScreen.Designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\EntradaTexto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\EntradaTexto.Designer.cs">
+      <DependentUpon>EntradaTexto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Form\Asistente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Asistente.Designer.cs">
+      <DependentUpon>Asistente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\_Global.cs" />
+    <Compile Include="Form\ReconocimientoFacial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\ReconocimientoFacial.Designer.cs">
+      <DependentUpon>ReconocimientoFacial.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form\SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\EntradaTexto.resx">
+      <DependentUpon>EntradaTexto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Form\Asistente.resx">
+      <DependentUpon>Asistente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\ReconocimientoFacial.resx">
+      <DependentUpon>ReconocimientoFacial.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9111518283_d3f94aea37_z-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeficientFrigidEwe-size_restricted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Next_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Previous_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MoveDown_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MoveDown_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MoveUp_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MoveUp_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Next_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Next_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Prev_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Prev_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\http_%252F%252Fuserscontent2.emaze.com%252Fimages%252Ff050906e-5c0f-480c-9539-1122a2b82fa9%252F7d44c46e-529b-405a-8e35-f65eefb73aae.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arbol-nacional-de-nicaragua.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ave-nacional-de-nicaragua.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandera-nacional-de-nicaragua.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\escudo-nacional-de-nicaragua.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flor-nacional-de-nicaragua.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\himno-nacional-de-nicaragua.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Símbolos patrios de Nicaragua.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ondas-sonoras.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandera-argentina-animada.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ana2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
